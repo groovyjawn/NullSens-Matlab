@@ -3,7 +3,7 @@ function RESULTS = NullSens(n,p,q,N,M,CD,Type,numIter,numReps,Name)
 % This is the main function for the NullSens algorithm. It is formatted for
 % experimental evaluation using simulated species responses. An external 
 % script may be used to implement a parameter sweep by making multiple 
-% calls this this function.
+% calls this function (i.e. Build_Sensitivity_Sweep_Experiments.py).
 
 % INPUTS:
 % n: number of sites
